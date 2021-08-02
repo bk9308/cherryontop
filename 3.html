@@ -1,23 +1,1552 @@
 <!doctype html>
 <html>
 <head>
-  <title>WEB1-JavaScript</title>
-  <meta x charset="utf-8">
+    <title>모스홈[moshome] - 주방 리빙용품 B2B 도매몰 위탁배송</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="mos home" />
+    <meta name="description" content="도매쇼핑몰,그릇도매,카페용품도매,카페창업,리빙용품수입,수납용품도매,주방용품" />
+    <meta name="keywords" content="그릇도매,카페용품도매,카페창업,리빙용품수입,수납용품도매,테이블웨어,카페소품도매,리빙소품,주방용품 도매" />
+    <meta name="csrf-token" content="MTYyNzg3NDU4OTY2ODcxNjE1NTcyNzM1NTcwMzUwMTUzNTU1MjY1ODEx" />
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="모스홈[moshome] - 주방 리빙용품 B2B 도매몰 위탁배송">
+    <meta property="og:image" content="http://moshome.godomall.com/data/common/snsRepresentImage.jpg">
+    <meta property="og:url" content="http://moshome.godomall.com/">
+    <meta property="og:description" content="도매쇼핑몰,그릇도매,빈티지접시,카페플레이트,카페창업,카페용품,리빙용품수입,수납용품도매,위탁,대량구매">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="627">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="모스홈[moshome] - 주방 리빙용품 B2B 도매몰 위탁배송">
+    <meta name="twitter:image" content="http://moshome.godomall.com/data/common/snsRepresentImage.jpg">
+    <meta name="twitter:description" content="도매쇼핑몰,그릇도매,빈티지접시,카페플레이트,카페창업,카페용품,리빙용품수입,수납용품도매,위탁,대량구매">
+
+
+    <link type="text/css" rel="stylesheet" href="/data/skin/front/moment/css/reset.css?ts=1578277205">
+    <link type="text/css" rel="stylesheet" href="/data/skin/front/moment/css/common/common.css?ts=1595553006">
+    <link type="text/css" rel="stylesheet" href="/data/skin/front/moment/css/common/layer/layer.css?ts=1578277205">
+    <link type="text/css" rel="stylesheet" href="/data/skin/front/moment/css/layout/layout.css?ts=1578277205">
+    <link type="text/css" rel="stylesheet" href="/data/skin/front/moment/css/goods/list.css?ts=1578277205">
+	<link type="text/css" rel="stylesheet" href="/data/skin/front/moment/css/button.css?ts=1578277205">
+    <link type="text/css" rel="stylesheet" href="/data/skin/front/moment/css/main/main.css?ts=1578277205" />
+    <link type="text/css" rel="stylesheet" href="/data/skin/front/moment/js/jquery/chosen/chosen.css?ts=1578277205" />
+    <link type="text/css" rel="stylesheet" href="/data/skin/front/moment/css/custom.css?ts=1578277205" />
+
+
+    <script type="text/javascript">
+        var json_locale_data = {"domain":"messages","locale_data":{"messages":{"":{"lang":"ATF","plural-forms":"nplurals=1; plural=0"}}}}
+    </script>
+    <script type="text/javascript" src="/data/skin/front/moment/js/gd_gettext.js?ts=1578277205"></script>
+    <script type="text/javascript" src="/data/skin/front/moment/js/jquery/jquery.min.js?ts=1578277205"></script>
+    <script type="text/javascript" src="/data/skin/front/moment/js/underscore/underscore-min.js?ts=1578277205"></script>
+    <script type="text/javascript" src="/data/skin/front/moment/js/jquery/validation/jquery.validate.min.js?ts=1578277205"></script>
+    <script type="text/javascript" src="/data/skin/front/moment/js/jquery/validation/additional-methods.min.js?ts=1578277205"></script>
+    <script type="text/javascript" src="/data/skin/front/moment/js/numeral/numeral.min.js?ts=1578277205"></script>
+    <script type="text/javascript" src="/data/skin/front/moment/js/global/accounting.min.js?ts=1578277205"></script>
+    <script type="text/javascript" src="/data/skin/front/moment/js/global/money.min.js?ts=1578277205"></script>
+    <script type="text/javascript" src="/data/skin/front/moment/js/jquery/chosen/chosen.jquery.min.js?ts=1578277205"></script>
+    <script type="text/javascript" src="/data/skin/front/moment/js/jquery/placeholder/placeholders.jquery.min.js?ts=1578277205"></script>
+    <![if gt IE 8]>
+    <script type="text/javascript" src="/data/skin/front/moment/js/copyclipboard/clipboard.min.js?ts=1578277205"></script>
+    <![endif]>
+    <script type="text/javascript" src="/data/skin/front/moment/js/jquery/vticker/jquery.vticker.js?ts=1578277205"></script>
+    <script type="text/javascript" src="/data/skin/front/moment/js/gd_ui.js?ts=1578277205"></script>
+
+    <script type="text/javascript">
+        // 고도몰5 통화정책
+        var gdCurrencyDecimal = 0;
+        var gdCurrencyDecimalFormat = '0';
+        var gdCurrencyCode = 'KRW';
+        var gdCurrencyAddDecimal = 0;
+        var gdCurrencyAddDecimalFormat = '';
+        var gdCurrencyAddCode = '';
+        var gdLocale = 'ko';
+        var gdCurrencySymbol = '';
+        var gdCurrencyString = '원';
+
+        // 환율변환 정책
+        fx.base = "KRW";
+        fx.settings = {
+            from : "KRW",
+            to : gdCurrencyCode
+        };
+        fx.rates = {
+            "KRW" : 1,
+            "USD" : 0,
+            "CNY" : 0,
+            "JPY" : 0,
+            "EUR" : 0,
+        }
+    </script>
+
+    <script type="text/javascript" src="/data/skin/front/moment/js/gd_common.js?ts=1595553006"></script>
+
+    <!-- Add script : start -->
+    <script type="text/javascript" src="/data/skin/front/moment/js/jquery/jquery-cookie/jquery.cookie.js"></script>
+    <!-- Add script : end -->
+
+
+
+    <style type="text/css">
+        body {
+        }
+
+        /* body > #wrap > #header_warp : 상단 영역 */
+        #header_warp {
+        }
+
+        /* body > #wrap > #container : 메인 영역 */
+        #container {
+        }
+
+        /* body > #wrap > #footer_wrap : 하단 영역 */
+        #footer_wrap {
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-200602304-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-200602304-1');
+</script>
+
 </head>
 
-<body>
-  <h1><a href="index.html">WEB</a></h1>
-  <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-  </ol>
+<body class="body-main body-index pc"  >
+<div class="top_area"></div>
+<div id="wrap">
+
+    <div id="header_warp">
+<div id="header">
+
+    <div class="header_top">
+        <div class="header_top_cont">
+
+            <!-- 멀티상점 선택 -->
+
+            <!-- 멀티상점 선택 -->
+
+            <ul class="top_member_box">
+                <li><a href="../member/logout.php?returnUrl=">LOGOUT</a><span class="txt_bar"></span></li>
+                <li>
+                    <div class="top_mypage_cont">
+                        <span class="top_mypage_tit"><a href="../mypage/index.php">MYPAGE</a></span>
+                        <ul style="display:none;">
+                            <li><a href="../mypage/order_list.php">주문조회</a></li>
+                            <li><a href="../mypage/my_page_password.php">내정보수정</a></li>
+                            <li><a href="../mypage/wish_list.php">찜 리스트</a></li>
+                            <li><a href="../mypage/mypage_qa.php">1:1 문의</a></li>
+                        </ul>
+                    </div>
+                    <span class="txt_bar"></span>
+                </li>
+                <li><a href="../order/cart.php">장바구니( <strong>0</strong> )</a><span class="txt_bar"></span></li>
+                <li><a href="../service/index.php">고객센터</a></li>
+            </ul>
+
+        </div>
+        <!-- //header_top_cont -->
+    </div>
+    <!-- //header_top -->
+    <div class="header_search">
+        <div class="header_search_cont">
+            <div class="h1_logo"><a href="http://moshome.godomall.com/main/index.php" ><img src="/data/skin/front/moment/img/banner/d0e92994bf74298828bc7f813648a4af_15109.gif"  alt="moshome_logo" title="moshome_logo"   /></a></div>
+
+            <!-- 검색 폼 -->
+            <div class="top_search">
+    <form name="frmSearchTop" id="frmSearchTop" action="../goods/goods_search.php" method="get">
+        <fieldset>
+            <legend>검색폼</legend>
+            <div class="top_search_cont">
+                <div class="top_text_cont">
+                    <input type="text" id="search_form" name="keyword" class="top_srarch_text" title=""  placeholder="" autocomplete="off">
+                    <input type="image" src="/data/skin/front/moment/img/common/btn/btn_top_search.png" id="btnSearchTop" class="btn_top_srarch" title="검색" value="검색" alt="검색">
+                </div>
+                <!-- //top_text_cont -->
+                <div class="search_cont" style="display:none;">
+                    <input type="hidden" name="recentCount" value="10" />
+
+                    <script type="text/javascript">
+    $(function(){
+
+        /* 상단 검색 */
+        $('.top_search_cont input[name="keyword"]').on({
+            'focus':function(){
+                $(this).parents().find('.search_cont').show();
+            },
+            'blur':function(){
+                $('body').click(function(e){
+                    if (!$('.search_cont').has(e.target).length && e.target.name != 'keyword') {
+                        $(this).parents().find('.search_cont').hide();
+                    }
+                });
+                $('.btn_top_search_close').click(function(){
+                    $(this).parents().find('.search_cont').hide();
+                });
+            }
+        });
+
+        if($("input[name=recentCount]").val() > 0) {
+            $('.js_recom_box').removeClass('recom_box_only').addClass('recom_box');
+        }else{
+            $('.js_recom_box').removeClass('recom_box').addClass('recom_box_only');
+        }
+
+    });
+</script>
+<div class="js_recom_box ">
+    <dl>
+        <dt>추천상품</dt>
+        <dd>
+            <div class="recom_item_cont">
+                <!-- //recom_icon_box -->
+                <div class="recom_tit_box">
+                    <a href="../goods/goods_view.php?goodsNo=">
+                    </a>
+                </div>
+                <!-- //recom_tit_box -->
+                <div class="recom_money_box">
+                </div>
+                <!-- //recom_money_box -->
+                <div class="recom_number_box">
+                </div>
+                <!-- //recom_number_box -->
+            </div>
+            <!-- //recom_item_cont -->
+        </dd>
+    </dl>
+</div>
+
+                    <!-- //recom_box -->
+
+                    <div class="recent_box">
+                        <dl class="js_recent_area">
+                            <dt>최근검색어</dt>
+                            <dd>
+                                <ul class="js_recent_list">
+                                    <li>
+                                        <a href="../goods/goods_search.php?keyword=%EB%A0%88%ED%84%B0%EB%A7%81">레터링</a>
+                                        <span>2021.07.23<button type="button" class="btn_top_search_del" data-recent-keyword="레터링">
+                                            <img src="/data/skin/front/moment/img/common/btn/btn_top_search_del.png" alt="삭제"></button>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a href="../goods/goods_search.php?keyword=1000000085">1000000085</a>
+                                        <span>2021.07.23<button type="button" class="btn_top_search_del" data-recent-keyword="1000000085">
+                                            <img src="/data/skin/front/moment/img/common/btn/btn_top_search_del.png" alt="삭제"></button>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!-- //recent_box -->
+                    <div class="seach_top_all">
+<button type="button" class="btn_top_search_all_del"><strong>전체삭제</strong></button>                        <button type="button" class="btn_top_search_close"><strong>닫기</strong></button>
+                    </div>
+                    <!-- //seach_top_all -->
+
+                </div>
+                <!-- //search_cont -->
+            </div>
+            <!-- //top_search_cont -->
+        </fieldset>
+    </form>
+</div>
+<!-- //top_search -->
+            <!-- 검색 폼 -->
+
+        </div>
+        <!-- //header_search_cont -->
+    </div>
+    <!-- //header_search -->
+    <div class="header_gnb">
 
 
-  <h2>JavaScript</h2>
+        <div class="gnb">
+            <!-- 전체 카테고리 출력 레이어 시작 -->
+            <div class="gnb_all">
+    <strong>ALL CATEGORY</strong>
+    <a href="#;" class="btn_all_menu_open"><img src="/data/skin/front/moment/img/common/btn/btn_allmenu_open.png" alt="전체메뉴보기"></a>
+</div>
+<div class="gnb_allmenu_wrap">
 
-  <p>
-    JavaScript (/ˈdʒɑːvəˌskrɪpt/),[8] often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.[9] JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
-  </p>
+</div>
+            <!-- 전체 카테고리 출력 레이어 끝 -->
+
+            <!-- 상단 카테고리 출력 시작 -->
+            <div class="gnb_left"><a href="#PREV" class="active">PREV</a></div>
+<div class="gnb_menu_box">
+    <ul class="depth0 gnb_menu0">
+        <li >
+            <a href="../goods/goods_list.php?cateCd=001" >주방용품</a>
+            <ul class="depth1">
+                <li >
+                    <a href="../goods/goods_list.php?cateCd=001001" >냄비·후라이팬</a>
+                </li>
+                <li >
+                    <a href="../goods/goods_list.php?cateCd=001002" >찬통·보관용기</a>
+                </li>
+                <li >
+                    <a href="../goods/goods_list.php?cateCd=001003" >조리도구</a>
+                </li>
+                <li >
+                    <a href="../goods/goods_list.php?cateCd=001004" >기타보관용기</a>
+                </li>
+            </ul>
+        </li>
+        <li >
+            <a href="../goods/goods_list.php?cateCd=007" >주방잡화</a>
+        </li>
+        <li >
+            <a href="../goods/goods_list.php?cateCd=003" >테이블웨어</a>
+            <ul class="depth1">
+                <li >
+                    <a href="../goods/goods_list.php?cateCd=003001" >공기·대접·면기</a>
+                </li>
+                <li >
+                    <a href="../goods/goods_list.php?cateCd=003002" >접시</a>
+                </li>
+                <li >
+                    <a href="../goods/goods_list.php?cateCd=003003" >수저·커트러리</a>
+                </li>
+                <li >
+                    <a href="../goods/goods_list.php?cateCd=003004" >쟁반·트레이</a>
+                </li>
+            </ul>
+        </li>
+        <li >
+            <a href="../goods/goods_list.php?cateCd=004" >카페용품</a>
+        </li>
+        <li >
+            <a href="../goods/goods_list.php?cateCd=002" >홈데코/수납</a>
+            <ul class="depth1">
+                <li >
+                    <a href="../goods/goods_list.php?cateCd=002001" >욕실용품</a>
+                </li>
+            </ul>
+        </li>
+        <li >
+            <a href="../goods/goods_list.php?cateCd=008" >생활잡화</a>
+        </li>
+        <li >
+            <a href="../goods/goods_list.php?cateCd=005" >패브릭소품</a>
+        </li>
+        <li >
+            <a href="../goods/goods_list.php?cateCd=006" >사입도매한정</a>
+        </li>
+    </ul>
+</div>
+<div class="gnb_right"><a href="#NEXT">NEXT</a></div>
+            <!-- 상단 카테고리 출력 끝 -->
+
+            <!--스크롤 게시글 시작-->
+            <div id="js_notice_list" class="notice_rolling">
+    <ul>
+        <li><a href="../board/view.php?bdId=notice&sno=6">[공지사항]&nbsp;여름 휴가 안내</a></li>
+        <li><a href="../board/view.php?bdId=notice&sno=5">[공지사항]&nbsp;문의 메일은 moshome@...</a></li>
+        <li><a href="../board/view.php?bdId=notice&sno=4">[공지사항]&nbsp;발송 및 배송안내</a></li>
+        <li><a href="../board/view.php?bdId=notice&sno=3">[공지사항]&nbsp;결제 및 세금계산서 안내</a></li>
+        <li><a href="../board/view.php?bdId=notice&sno=2">[공지사항]&nbsp;위탁 및 이미지 사용 권한에...</a></li>
+        <li><a href="../board/view.php?bdId=notice&sno=1">[공지사항]&nbsp;가입안내(가입 전 필독)</a></li>
+    </ul>
+    <div class="btn_notice_rolling">
+        <a href="#" class="next"><img src="/data/skin/front/moment/img/common/btn/btn_top_notice_prev.png" alt="이전" /></a>
+        <a href="#" class="prev"><img src="/data/skin/front/moment/img/common/btn/btn_top_notice_next.png" alt="다음" /></a>
+    </div>
+</div>
+<!-- //notice_rolling -->
+<script>
+    $(function () {
+        var $scroller = $('#js_notice_list');
+        $scroller.vTicker();
+
+        $(".btn_notice_rolling .next").click(function(event){
+            event.preventDefault();
+            $scroller.vTicker('next', true);
+        });
+        $(".btn_notice_rolling .prev,.btn_notice_rolling .next").hover(function(){
+            $scroller.vTicker('pause', true);
+        }, function(){
+            $scroller.vTicker('pause', false);
+        });
+        $(".btn_notice_rolling .prev").click(function(event){
+            event.preventDefault();
+            $scroller.vTicker('prev',true);
+        });
+    });
+</script>
+
+            <!--스크롤 게시글 끝-->
+
+        </div>
+        <!-- //gnb -->
+
+        <!-- //gnb_allmenu -->
+    </div>
+    <!-- //header_gnb -->
+</div>
+<!-- //header -->
+    </div>
+    <!-- //header_warp -->
+
+    <div id="container">
+        <div id="contents">
+        <!-- 본문 시작 -->
+
+            <!-- //location_wrap -->
+
+            <div class="sub_content">
+
+                <!-- //side_cont -->
+
+<div class="main_visual">
+    <style type="text/css">
+     .slider-wrap .slick-slide {
+        overflow:hidden;
+    }
+
+    .slider-banner-511517418{
+    width:100%;
+    }
+    .slider-banner-511517418 img{
+		max-width: 100%;
+    }
+
+	.body-main #wrap .slider-banner-511517418 img{max-width:none;}
+
+    .slider-banner-511517418 .slick-prev{
+       background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+       background:#ffffff\0/IE8;
+    }
+    .slider-banner-511517418 .slick-next{
+        background-image:   url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+        background:#ffffff\0/IE8;
+    }
+
+    .slider-banner-511517418  .slick-dots li button{
+        width:8px;
+        height:8px;
+        border-radius:100%;
+        background:#ffffff;
+    }
+    .slider-banner-511517418 .slick-dots li.slick-active button{
+        background:#ffffff;
+    }
+</style>
+
+<div  class="slider-wrap slider-banner-511517418">
+    <div>
+     <img src="/data/skin/front/moment/img/banner/slider_511517418/4f0691cfe48c8f74fe413c7b92391ff4_28674.jpg"  alt="본문 슬라이드 배너" title="본문 슬라이드 배너"   />
+    </div>
+
+</div >
+<script src="/data/skin/front/moment/js/slider/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.slider-banner-511517418').not('.slick-initialized').slick({
+            autoplay: true,
+            dots: true,
+            infinite: true,
+            autoplaySpeed :3000,
+            speed:1300,
+            slidesToShow: 1,
+            centerMode:true,
+            variableWidth: true,
+            adaptiveHeight: true,
+            draggable : false
+        });
+    });
+</script>
+
+</div>
+<!-- //main_visual -->
+<div class="main_content">
+    <div class="main_slide_ban">
+        <div class="main_slide">
+        </div>
+        <!-- //main_slide -->
+
+        <div class="main_banner">
+            <div class="main_ban_img01">
+            </div>
+            <div class="main_ban_img02">
+            </div>
+            <div class="main_ban_img03">
+            </div>
+        </div>
+        <!-- //main_banner -->
+    </div>
+    <!-- //main_slide_ban -->
+    <div class="main_goods_cont">
+    <!-- 설문조사 배너 --><!-- 설문조사 배너 -->
+    </div>
+    <div class="main_goods_cont">
+        <!-- 메인 상품 노출 -->
+<div class="goods_list main_wrap_1">
+    <div class="goods_list_tit">
+        <h3><img src='/data/display/1_imageNm.jpg'></h3>
+        <div class="btn_goods_more">
+            <a href="../goods/goods_main.php?sno=1" class="btn_goods_view_more">+ 더보기</a>
+        </div>
+    </div>
+    <div class="goods_list_cont goods_content_1">
+<div class="item_gallery_type">
+    <ul>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000096&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/07/30/1000000096/1000000096_main_07.jpg" width="180" alt="[위탁] 재팬 뚜껑 돈부리볼 2종 택1 (돈부리+뚜껑세트)" title="[위탁] 재팬 뚜껑 돈부리볼 2종 택1 (돈부리+뚜껑세트)" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000096&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 재팬 뚜껑 돈부리볼 2종 택1 (돈부리+뚜껑세트)</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">14,000원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000095&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/07/30//1000000095/register_main_070.jpg" width="180" alt="[위탁]  스테인레스 304 납작 이중집게" title="[위탁]  스테인레스 304 납작 이중집게" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000095&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁]  스테인레스 304 납작 이중집게</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">2,550원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000094&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/07/30//1000000094/register_main_099.jpg" width="180" alt="[위탁] 스테인레스 뾰족이 핀셋 집게" title="[위탁] 스테인레스 뾰족이 핀셋 집게" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000094&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 스테인레스 뾰족이 핀셋 집게</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">1,650원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000093&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/07/29//1000000093/register_main_056.jpg" width="180" alt="[위탁] 걸이형 철제 창틀선반 6종" title="[위탁] 걸이형 철제 창틀선반 6종" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000093&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 걸이형 철제 창틀선반 6종</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">3,300원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000092&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/07/29//1000000092/register_main_058.jpg" width="180" alt="[위탁] 피크닉 와인 칠링백 맥주버켓 2type" title="[위탁] 피크닉 와인 칠링백 맥주버켓 2type" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000092&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 피크닉 와인 칠링백 맥주버켓 2type</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">2,400원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000091&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/07/29//1000000091/register_main_052.jpg" width="180" alt="[위탁] 투명 오브 유리 믹싱볼 6size" title="[위탁] 투명 오브 유리 믹싱볼 6size" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000091&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 투명 오브 유리 믹싱볼 6size</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">1,300원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000090&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/07/29//1000000090/register_main_026.jpg" width="180" alt="[위탁] 글라스 라인 면기 종지 3size" title="[위탁] 글라스 라인 면기 종지 3size" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000090&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 글라스 라인 면기 종지 3size</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">1,300원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000088&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/07/28//1000000088/register_main_052.jpg" width="180" alt="[위탁] 야채 지퍼백 그린백 4size" title="[위탁] 야채 지퍼백 그린백 4size" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000088&mtn=1%5E%7C%5E%EC%8B%A0%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 야채 지퍼백 그린백 4size</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">4,900원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+    </ul>
+</div>
+<!-- //item_gallery_type -->
+    </div>
+    <div class="btn_goods_down_more">
+        <button class="btn_goods_view_down_more" data-page="2">더보기</button>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    <!--
+    var keyValue1 = '1';
+    var key1 = {
+        html: 'html' + keyValue1,
+        page: 'page' + keyValue1
+    };
+    var gdStorage1 = loadSession(key1.html);
+    var page1 = loadSession(key1.page);
+    $(document).ready(function() {
+        if (gdStorage1) {
+            $('.goods_content_1').html(gdStorage1);
+            if (page1) {
+                $('.main_wrap_1 .btn_goods_view_down_more').attr('data-page',page1);
+            }
+        }
+        $('.main_wrap_1 .btn_goods_view_down_more').on('click', function(e){
+            gd_get_list_1($(this).data('page'));
+        });
+    });
+
+    function gd_get_list_1(page) {
+        $.get('../goods/goods_main.php', {'mode' : 'get_main', 'more' : page, 'sno' : '1', 'groupSno' : ''}, function (data) {
+            $(".goods_content_1").html(data);
+            saveSession(key1.html, data);
+            if (parseInt(page) + 1 > 11) {
+                $('.main_wrap_1 .btn_goods_view_down_more').hide();
+            } else {
+                saveSession(key1.page, parseInt(page)+1);
+                $('.main_wrap_1 .btn_goods_view_down_more').data('page', parseInt(page) + 1);
+            }
+        });
+    }
+    //-->
+</script>
+<!-- 메인 상품 노출 -->
+    </div>
+    <!-- //main_goods_cont -->
+
+    <div class="main_cont_slide_ban">
+        <div class="main_cont_slide">
+
+        </div>
+        <!-- //main_cont_slide -->
+    </div>
+    <!-- //main_cont_slide_ban -->
+
+    <div class="main_goods_cont">
+        <!-- 메인 상품 노출 -->
+<div class="goods_list main_wrap_2">
+    <div class="goods_list_tit">
+        <h3><img src='/data/display/2_imageNm.jpg'></h3>
+        <div class="btn_goods_more">
+            <a href="../goods/goods_main.php?sno=2" class="btn_goods_view_more">+ 더보기</a>
+        </div>
+    </div>
+    <div class="goods_list_cont goods_content_2">
+<div class="item_gallery_type">
+    <ul>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000023&mtn=2%5E%7C%5E%EC%9E%AC%EC%9E%85%EA%B3%A0+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/04/15//1000000023/register_main_044.jpg" width="180" alt="[위탁] 프렌치 와이어 유리병 / 글라스 캐니스터 3size 택1 (잼병 과일청 소분용기)" title="[위탁] 프렌치 와이어 유리병 / 글라스 캐니스터 3size 택1 (잼병 과일청 소분용기)" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000023&mtn=2%5E%7C%5E%EC%9E%AC%EC%9E%85%EA%B3%A0+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 프렌치 와이어 유리병 / 글라스 캐니스터 3size 택1 (잼병 과일청 소분용기)</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">3,000원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000027&mtn=2%5E%7C%5E%EC%9E%AC%EC%9E%85%EA%B3%A0+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/04/15//1000000027/register_main_072.jpg" width="180" alt="[위탁] 매일 살림 투명 냉장고 정리트레이 5종 (묶음배송불가)" title="[위탁] 매일 살림 투명 냉장고 정리트레이 5종 (묶음배송불가)" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000027&mtn=2%5E%7C%5E%EC%9E%AC%EC%9E%85%EA%B3%A0+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 매일 살림 투명 냉장고 정리트레이 5종 (묶음배송불가)</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">3,300원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000068&mtn=2%5E%7C%5E%EC%9E%AC%EC%9E%85%EA%B3%A0+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/06/25//1000000068/register_main_060.jpg" width="180" alt="[위탁] 오팔린 빈티지 글라스 화병 8종 택1" title="[위탁] 오팔린 빈티지 글라스 화병 8종 택1" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000068&mtn=2%5E%7C%5E%EC%9E%AC%EC%9E%85%EA%B3%A0+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 오팔린 빈티지 글라스 화병 8종 택1</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">8,000원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000081&mtn=2%5E%7C%5E%EC%9E%AC%EC%9E%85%EA%B3%A0+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/07/27/1000000081/1000000081_main_062.jpg" width="180" alt="[위탁] 카네수즈 스노우 화이트 시리즈" title="[위탁] 카네수즈 스노우 화이트 시리즈" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000081&mtn=2%5E%7C%5E%EC%9E%AC%EC%9E%85%EA%B3%A0+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 카네수즈 스노우 화이트 시리즈</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">6,000원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+    </ul>
+</div>
+<!-- //item_gallery_type -->
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    <!--
+    var keyValue2 = '2';
+    var key2 = {
+        html: 'html' + keyValue2,
+        page: 'page' + keyValue2
+    };
+    var gdStorage2 = loadSession(key2.html);
+    var page2 = loadSession(key2.page);
+    $(document).ready(function() {
+        if (gdStorage2) {
+            $('.goods_content_2').html(gdStorage2);
+            if (page2) {
+                $('.main_wrap_2 .btn_goods_view_down_more').attr('data-page',page2);
+            }
+        }
+        $('.main_wrap_2 .btn_goods_view_down_more').on('click', function(e){
+            gd_get_list_2($(this).data('page'));
+        });
+    });
+
+    function gd_get_list_2(page) {
+        $.get('../goods/goods_main.php', {'mode' : 'get_main', 'more' : page, 'sno' : '2', 'groupSno' : ''}, function (data) {
+            $(".goods_content_2").html(data);
+            saveSession(key2.html, data);
+            if (parseInt(page) + 1 > 1) {
+                $('.main_wrap_2 .btn_goods_view_down_more').hide();
+            } else {
+                saveSession(key2.page, parseInt(page)+1);
+                $('.main_wrap_2 .btn_goods_view_down_more').data('page', parseInt(page) + 1);
+            }
+        });
+    }
+    //-->
+</script>
+<!-- 메인 상품 노출 -->
+        <!-- 메인 상품 노출 -->
+<div class="goods_list main_wrap_3">
+    <div class="goods_list_tit">
+        <h3><img src='/data/display/3_imageNm.jpg'></h3>
+        <div class="btn_goods_more">
+            <a href="../goods/goods_main.php?sno=3" class="btn_goods_view_more">+ 더보기</a>
+        </div>
+    </div>
+    <div class="goods_list_cont goods_content_3">
+<div class="item_gallery_type">
+    <ul>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000021&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/03/11/1000000021/1000000021_main_095.jpg" width="180" alt="[위탁] 국내생산 삼각집게 핀셋 다용도 스텐 고기 주방집게 택1" title="[위탁] 국내생산 삼각집게 핀셋 다용도 스텐 고기 주방집게 택1" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000021&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 국내생산 삼각집게 핀셋 다용도 스텐 고기 주방집게 택1</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">5,000원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000039&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/05/21/1000000039/1000000039_main_099.jpg" width="180" alt="[위탁] 골드 플리츠 고블렛잔 2type" title="[위탁] 골드 플리츠 고블렛잔 2type" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000039&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 골드 플리츠 고블렛잔 2type</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">7,200원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000063&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/06/25//1000000063/register_main_010.jpg" width="180" alt="[위탁/사입] 디자인 내열 유리컵 4종 택1 / 스마일 레터링글라스 홈카페" title="[위탁/사입] 디자인 내열 유리컵 4종 택1 / 스마일 레터링글라스 홈카페" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000063&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁/사입] 디자인 내열 유리컵 4종 택1 / 스마일 레터링글라스 홈카페</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">3,300원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000066&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/06/25//1000000066/register_main_085.jpg" width="180" alt="[위탁] 국산 스텐 손잡이 믹싱볼 4size / 다용도 베이킹볼 계량컵" title="[위탁] 국산 스텐 손잡이 믹싱볼 4size / 다용도 베이킹볼 계량컵" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000066&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 국산 스텐 손잡이 믹싱볼 4size / 다용도 베이킹볼 계량컵</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">2,850원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000078&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/07/27//1000000078/register_main_089.jpg" width="180" alt="[위탁] 스마일 손잡이 소주잔 4p 세트" title="[위탁] 스마일 손잡이 소주잔 4p 세트" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000078&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 스마일 손잡이 소주잔 4p 세트</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">4,500원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000069&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/06/25//1000000069/register_main_089.jpg" width="180" alt="[위탁] 플라워 나눔 플레이트 3color" title="[위탁] 플라워 나눔 플레이트 3color" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000069&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 플라워 나눔 플레이트 3color</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">8,000원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000065&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/06/25//1000000065/register_main_09.jpg" width="180" alt="[위탁] 메종 도트 빅 디저트볼 빙수볼 330ml" title="[위탁] 메종 도트 빅 디저트볼 빙수볼 330ml" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000065&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 메종 도트 빅 디저트볼 빙수볼 330ml</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">3,000원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+        <li  style="width:25%;">
+            <div class="item_cont">
+                <div class="item_photo_box" >
+                    <a href="../goods/goods_view.php?goodsNo=1000000051&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En" >
+                        <img src="/data/goods/21/06/24//1000000051/register_main_05.jpg" width="180" alt="[위탁] 스텐 요리 삼각 집게 2종" title="[위탁] 스텐 요리 삼각 집게 2종" class="middle"  />
+                    </a>
+                </div>
+                <!-- //item_photo_box -->
+                <div class="item_info_cont">
+                    <div class="item_tit_box">
+                        <a href="../goods/goods_view.php?goodsNo=1000000051&mtn=3%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%83%81%ED%92%88%5E%7C%5En">
+                            <strong class="item_name">[위탁] 스텐 요리 삼각 집게 2종</strong>
+                        </a>
+                    </div>
+                    <!-- //item_tit_box -->
+                    <div class="item_money_box">
+                        <strong class="item_price">
+                            <span  style="">3,300원 </span>
+                        </strong>
+                    </div>
+                    <!-- //item_money_box -->
+                    <!-- //item_number_box -->
+                    <div class="item_icon_box">
+
+                    </div>
+                    <!-- //item_icon_box -->
+                </div>
+                <!-- //item_info_cont -->
+            </div>
+            <!-- //item_cont -->
+        </li>
+    </ul>
+</div>
+<!-- //item_gallery_type -->
+    </div>
+    <div class="btn_goods_down_more">
+        <button class="btn_goods_view_down_more" data-page="2">더보기</button>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    <!--
+    var keyValue3 = '3';
+    var key3 = {
+        html: 'html' + keyValue3,
+        page: 'page' + keyValue3
+    };
+    var gdStorage3 = loadSession(key3.html);
+    var page3 = loadSession(key3.page);
+    $(document).ready(function() {
+        if (gdStorage3) {
+            $('.goods_content_3').html(gdStorage3);
+            if (page3) {
+                $('.main_wrap_3 .btn_goods_view_down_more').attr('data-page',page3);
+            }
+        }
+        $('.main_wrap_3 .btn_goods_view_down_more').on('click', function(e){
+            gd_get_list_3($(this).data('page'));
+        });
+    });
+
+    function gd_get_list_3(page) {
+        $.get('../goods/goods_main.php', {'mode' : 'get_main', 'more' : page, 'sno' : '3', 'groupSno' : ''}, function (data) {
+            $(".goods_content_3").html(data);
+            saveSession(key3.html, data);
+            if (parseInt(page) + 1 > 11) {
+                $('.main_wrap_3 .btn_goods_view_down_more').hide();
+            } else {
+                saveSession(key3.page, parseInt(page)+1);
+                $('.main_wrap_3 .btn_goods_view_down_more').data('page', parseInt(page) + 1);
+            }
+        });
+    }
+    //-->
+</script>
+<!-- 메인 상품 노출 -->
+    </div>
+    <!-- //main_goods_cont -->
+</div>
+<!-- //main_content -->
+
+
+
+            </div>
+            <!-- //sub_content -->
+        </div>
+        <!-- //본문 끝 contents -->
+    </div>
+    <!-- //container -->
+
+    <div id="footer_wrap">
+<div class="content_info_wrap">
+    <div class="content_info">
+        <div class="cs_center">
+            <h3>CS CENTER</h3>
+            <strong>010-5682-2750</strong>
+            <p>am10~pm4 (점심시간 pm12~pm1)</p>
+        </div>
+        <!-- //cs_center -->
+        <div class="bank_info">
+            <h3>BANK INFO</h3>
+            <strong>96140101441997</strong>
+            <p><em>국민은행</em> <br>예금주 : 주식회사 키친앤리빙</p>
+        </div>
+        <!-- //bank_info -->
+        <div class="notice_list">
+            <h3><a href="../board/list.php?bdId=notice" title="공지 리스트">NOTICE</a></h3>
+            <ul>
+    <li>
+        <span></span>
+        <a href="../board/view.php?bdId=notice&sno=6">여름 휴가 안내</a>
+    </li>
+    <li>
+        <span></span>
+        <a href="../board/view.php?bdId=notice&sno=5">문의 메일은 moshome@naver...</a>
+    </li>
+    <li>
+        <span></span>
+        <a href="../board/view.php?bdId=notice&sno=4">발송 및 배송안내</a>
+    </li>
+    <li>
+        <span></span>
+        <a href="../board/view.php?bdId=notice&sno=3">결제 및 세금계산서 안내</a>
+    </li>
+    <li>
+        <span></span>
+        <a href="../board/view.php?bdId=notice&sno=2">위탁 및 이미지 사용 권한에 대한 안...</a>
+    </li>
+</ul>
+
+        </div>
+        <!-- //notice_list -->
+    </div>
+    <!-- //content_info -->
+</div>
+<!-- //content_info_wrap -->
+
+<div id="footer">
+    <div class="foot_list">
+        <ul>
+            <li><a href="../service/company.php">회사소개</a></li>
+            <li><a href="../service/agreement.php">이용약관</a></li>
+            <li><a href="../service/private.php"><strong>개인정보처리방침</strong></a></li>
+            <li><a href="../service/guide.php">이용안내</a></li>
+            <li><a href="../service/cooperation.php">광고/제휴 문의</a></li>
+        </ul>
+    </div>
+    <!-- //foot_list -->
+    <div class="foot_cont">
+        <div class="foot_logo">
+<img src="/data/skin/front/moment/img/banner/bottom-logo.png"  alt="하단로고" title="하단로고"   />        </div>
+        <!-- //foot_logo -->
+        <div class="foot_info">
+            <address>
+                <strong>주식회사 키친앤리빙</strong>
+                <span>인천광역시 부평구 청안로 21 키친앤리빙</span>
+            </address>
+            <div class="foot_info_list">
+                <dl>
+                    <dt>대표 :</dt>
+                    <dd>고영직</dd>
+                </dl>
+                <dl>
+                    <dt>사업자등록번호 :</dt>
+                    <dd>236-81-01359 <a href="#" class="btn_licensee_info" onclick="gd_popup_bizInfo('2368101359'); return false;">사업자번호조회 ></a></dd>
+                </dl>
+                <dl>
+                    <dt>통신판매업신고번호 :</dt>
+                    <dd>22018-인청부평-1576</dd>
+                </dl>
+                <dl>
+                    <dt>개인정보관리자 :</dt>
+                    <dd></dd>
+                </dl>
+            </div>
+            <div class="foot_info_list">
+                <dl>
+                    <dt>대표번호 :</dt>
+                    <dd><strong>070-7756-1321</strong></dd>
+                </dl>
+                <dl>
+                    <dt>팩스번호 :</dt>
+                    <dd>032-542-9328</dd>
+                </dl>
+                <dl>
+                    <dt>메일 :</dt>
+                    <dd><a href="mailto:godo@godo.co.kr" class="btn_email">dazeroom11@naver.com</a></dd>
+                </dl>
+                <dl>
+                    <dt></dt>
+                    <dd>호스팅제공 : 엔에이치엔고도(주)</dd>
+                </dl>
+            </div>
+            <!-- // -->
+            <p class="copyright">copyright. 2020. <strong>moshome.godomall.com</strong>. All rights reserved.</p>
+        </div>
+        <!-- //foot_info -->
+    </div>
+    <!-- //foot_cont -->
+    <div class="foot_certify">
+        <span></span>
+        <span></span>
+    </div>
+    <!-- //foot_certify -->
+</div>
+<!-- //footer -->
+    </div>
+    <!-- //footer_wrap -->
+
+
+    <div class="scroll_wrap">
+
+        <!-- 좌측 스크롤 배너 -->
+        <div id="scroll_left">
+
+        </div>
+        <!-- //scroll_left -->
+        <!-- //좌측 스크롤 배너 -->
+
+
+        <!-- 우측 스크롤 배너 -->
+        <div id="scroll_right">
+<div class="right_banner">
+</div>
+<div class="scroll_right_cont">
+    <h4>TODAY VIEW</h4>
+
+    <div class="scr_paging">
+        <button type="button" class="bnt_scroll_prev" title="최근본 이전 상품"><img src="/data/skin/front/moment/img/common/btn/btn_scroll_prev.png" alt="최근본 이전 상품"></button>
+        <span><strong class="js_current">0</strong>/<span class="js_total" style="float:none;width:auto;">2</span></span>
+        <button type="button" class="bnt_scroll_next" title="최근본 다음 상품"><img src="/data/skin/front/moment/img/common/btn/btn_scroll_next.png" alt="최근본 다음 상품"></button>
+    </div>
+    <!-- //scr_paging -->
+</div>
+<span class="btn_scroll_top"><a href="#TOP"><img src="/data/skin/front/moment/img/common/btn/btn_scroll_top.png" alt="상단으로 이동"/></a></span>
+
+<script type="text/javascript">
+    // DOM 로드
+    $(function () {
+        $('.scroll_right_cont').todayGoods();
+    });
+
+    // 최근본상품 리스트 페이징 처리 플러그인
+    $.fn.todayGoods = function () {
+        // 기본값 세팅
+        var self = $(this);
+        var setting = {
+            page: 1,
+            total: 0,
+            rowno: 5
+        };
+        var element = {
+            goodsList: self.find('ul > li'),
+            closeButton: self.find('ul > li > button'),
+            prev: self.find('.scr_paging > .bnt_scroll_prev'),
+            next: self.find('.scr_paging > .bnt_scroll_next'),
+            paging: self.find('.scr_paging')
+        };
+
+        // 페이지 갯수 설정
+        setting.total = Math.ceil(element.goodsList.length / setting.rowno);
+
+        // 화면 초기화 및 갱신 (페이지 및 갯수 표기)
+        var init = function () {
+            if (setting.total == 0) {
+                setting.page = 0;
+                element.paging.hide();
+            }
+            self.find('ul').hide().eq(setting.page - 1).show();
+            self.find('.scr_paging .js_current').text(setting.page);
+            self.find('.scr_paging .js_total').text(setting.total);
+        }
+
+        // 삭제버튼 클릭
+        element.closeButton.click(function(e){
+            $.post('../goods/goods_ps.php', {
+                'mode': 'delete_today_goods',
+                'goodsNo': $(this).data('goods-no')
+            }, function (data, status) {
+                // 값이 없는 경우 성공
+                if (status == 'success' && data == '') {
+                    location.reload(true);
+                }
+                else {
+                    console.log('request fail. ajax status (' + status + ')');
+                }
+            });
+        });
+
+        // 이전버튼 클릭
+        element.prev.click(function (e) {
+            setting.page = 1 == setting.page ? setting.total : setting.page - 1;
+            init();
+        });
+
+        // 다음버튼 클릭
+        element.next.click(function (e) {
+            setting.page = setting.total == setting.page ? 1 : setting.page + 1;
+            init();
+        });
+
+        // 화면 초기화
+        init();
+    };
+</script>
+        </div>
+        <!-- //scroll_right -->
+        <!-- //우측 스크롤 배너 -->
+
+
+    </div>
+    <!-- //scroll_wrap -->
+
+
+    <!-- 퀵 검색 폼 -->
+    <!-- 퀵 검색 폼 -->
+
+</div>
+<!-- //wrap -->
+
+<!-- 쇼핑 카트 탭 -->
+
+<!-- //쇼핑 카트 탭 -->
+
+<!-- 회원가입 유도 푸시 -->
+
+<!-- //회원가입 유도 푸시 -->
+
+<!-- 절대! 지우지마세요 : Start -->
+<div id="layerDim" class="dn">&nbsp;</div>
+<iframe name="ifrmProcess" src='/blank.php' style="display:none" width="100%" height="0" bgcolor="#000"></iframe>
+<!-- 절대! 지우지마세요 : End -->
+
+<!-- 외부 스크립트 -->
+
+
 </body>
 </html>
